@@ -26,8 +26,8 @@ This repository contains information on techniques and best practices on web scr
 
 <details>
 
-- [About Web Scraping](#about-web-scraping)
-- [How Websites Detect Crawlers](#how-to-avoid-detection) 
+- **[About Web Scraping](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/about-web-scraping)**
+- **[How Websites Detect Scraping](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/how-websites-detect)** 
 - [Common Crawler Traps](#common-crawler-traps)
 - [How to Avoid Detection](#how-to-avoid-detection) 
 - [Requetss-HTML Basics](#requetss-html-basics)  
