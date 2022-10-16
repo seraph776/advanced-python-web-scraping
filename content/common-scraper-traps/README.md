@@ -6,7 +6,6 @@
 </div>
 
 
-
 In `SEO`, "crawler traps" are a structural issue within a website that causes crawlers to find a virtually infinite number of irrelevant URLs. In theory, crawlers could get stuck in one part of a website and never finish crawling these irrelevant URLs. That's why we call it a "crawl" trap. Crawler traps are sometimes also referred to as `"spider traps."` The most common crawler traps we often see in the wild:
 
 - **Setting up robots.txt** — This is the most ineffective method to prevent scraping.
