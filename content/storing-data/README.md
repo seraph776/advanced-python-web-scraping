@@ -7,12 +7,12 @@
 
 
 
-**CSV**: The most common format is a Comma Separated Value (CSV) format – most people know how it works and it is easily viewable in various products including and especially Microsoft Excel.
+- **CSV**: The most common format is a Comma Separated Value (CSV) format – most people know how it works and it is easily viewable in various products including and especially Microsoft Excel.
 
-**JSON**: (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate according to json.org
+- **JSON**: (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate according to json.org
 
 
-**SQL**: Structured Query Language, isn’t really a data format and is very specific to a particular database and database schema or structure.
+- **SQL**: Structured Query Language, isn’t really a data format and is very specific to a particular database and database schema or structure.
 
 ## What is a good format?
 
