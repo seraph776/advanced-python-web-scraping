@@ -34,7 +34,7 @@ This repository contains information on techniques and best practices on web scr
 - **[Advanced Techniques](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/advanced-techniques)**
   - [Enable JavaScript](#)
   - [Login Authentication](#)
-  - [Spoof User Agents](#)
+  - [Spoof User Agents](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/advanced-techniques/spoof-user-agents)
   - [Using Proxies](#)
 - **[CSS Selectors](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/css-selectors)** 
 - **[XPath](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/xpath)**  
