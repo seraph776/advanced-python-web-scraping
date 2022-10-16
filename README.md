@@ -37,8 +37,8 @@ This repository contains information on techniques and best practices on web scr
   - [Spoof User Agents](#)
   - [Use Proxies](#)
 - **[CSS Selectors](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/css-selectors)** 
-- [XPath](#)  
-- [Regex](#)   
+- [XPath](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/xpath)  
+- [Regex](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/regex)   
 - [Resources](#) 
  
 <summary> 📚 View </summary>
