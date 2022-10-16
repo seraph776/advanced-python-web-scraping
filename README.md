@@ -11,17 +11,17 @@
  
 <img src="https://user-images.githubusercontent.com/72005563/193153931-1d4aec4f-f7ab-4b30-95fb-635ca3e7333c.png" width=400>
   
-Advanced Python Web Scraping Techniques
+_Advanced Python Web Scraping Techniques_
 
 </div>
 
-# ℹ️ Overview
+# 天 Overview
 
 This repository contains information on techniques and best practices on web scraping using the [Requests-HTML](https://requests.readthedocs.io/projects/requests-html/en/latest/) module. This library intends to make parsing HTML (e.g. scraping the web) as simple and intuitive as possible.
 
 
 
-## 📚 Table of Contents
+##  Table of Contents
 
 
 <details>
@@ -29,19 +29,19 @@ This repository contains information on techniques and best practices on web scr
 - **[About Web Scraping](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/about-web-scraping)**
 - **[How Websites Detect Scraping](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/how-websites-detect)** 
 - **[Common Scraper Traps](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/common-scraper-traps)**
-- [How to Avoid Detection](#) 
-- [Requetss-HTML Basics](#)  
-- [Advanced Techniques](#)
+- **[How to Avoid Detection](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/how-websites-detect)** 
+- **[Requetss-HTML Basics](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/requests-html-basics)**  
+- **[Advanced Techniques](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/advanced-techniques)**
   - [Enable JavaScript](#)
   - [Login Authentication](#)
   - [Spoof User Agents](#)
   - [Use Proxies](#)
-- [CSS Selectors](#) 
+- **[CSS Selectors](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/css-selectors)** 
 - [XPath](#)  
 - [Regex](#)   
 - [Resources](#) 
  
-<summary> 🎯 View </summary>
+<summary> 📚 View </summary>
 
 </details>
 
