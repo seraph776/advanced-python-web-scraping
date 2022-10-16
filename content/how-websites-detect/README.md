@@ -10,7 +10,7 @@ Websites can use different mechanisms to detect a scraper/spider from a normal u
 
 1. Unusual traffic/high download rate especially from a single client/or IP address within a short time span.
 2. Repetitive tasks performed on the website in the same browsing pattern – based on an assumption that a human user won’t perform the same repetitive tasks all the time.
-3. Checking if you are real browser – A simple check is to try and execute javascript. Smarter tools can go a lot more and check your Graphic cards and CPUs 😉 to make sure you are coming from real browser.
+3. Checking if you are real browser – A simple check is to try and execute javascript. Smarter tools can go a lot more and check your Graphic cards and CPU to make sure you are coming from real browser.
 4. Detection through honeypots – these honeypots are usually links which aren’t visible to a normal user but only to a spider. When a scraper/spider tries to access the link, the alarms are tripped.
 
 Detection can be done on `client side` i.e. on your browser or on `server-side` or by using both of these mechanisms. Web server can use inbuilt software to detect a bot or they can use clod service providers like AWS or Google cloud. As this detection is based on probability determined by considering various factors it can go wrong. Sometimes it can block genuine users and allow bots to enter the webpage.
