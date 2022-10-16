@@ -26,23 +26,38 @@ This repository contains information on techniques and best practices on web scr
 
 <details>
 
-- **[Web Scraping](#web-scraping)**
-  - [What is Web Scraping](#what-is-Web-scraping)
-  - [Uses for Web Scraping](#uses-for-Web-scraping)
-  - [Legality of Web Scraping](#legality-of-Web-scraping)
+- **[About Web Scraping](#about-web-scraping)**
+- **[How Websites Detect Crawlers](#how-to-avoid-detection)** 
 - **[Common Crawler Traps](#common-crawler-traps)**
-- **[How to Avoid Detection](#how-to-avoid-detection)**
-  - [Plan Before Scraping](#plan-before-scraping)
-  - [Avoid Logging In](#avoid-logging-in)
-  - [Use Headless Browsers](#use-headless-browsers)
+- **[How to Avoid Detection](#how-to-avoid-detection)** 
+- **[Requetss-HTML Basics](#requetss-html-basics)**  
+- **[Advanced Techniques](#how-to-avoid-detection)**
+  - [Enable JavaScript](#enable-javascript)
+  - [Login Authentication](#enable-javascript)
   - [Spoof User Agents](#spoof-user-agents)
-  - [Cookies and Session](#cookies-and-sessions)
   - [Use Proxies](#use-proxies)
-  - [Set a Referrer](#set-a-referrer)
-  - [Bypass CAPTCHAS](#bypass-captchas)
-
+- **[CSS Selectors](#how-to-avoid-detection)** 
+- **[XPath](#how-to-avoid-detection)**  
+- **[Regex](#how-to-avoid-detection)**   
+- **[Resources](#how-to-avoid-detection)** 
  
 <summary> 🎯 View </summary>
 
 </details>
 
+
+## Discussions
+
+Have any Questions? Visit [Discussions](https://github.com/seraph776/webscrape_template/discussions) which is a space for our community to have conversations, ask questions and post answers without opening issues. Please read our [Code of Conduct](https://github.com/seraph776/webscrape_template/blob/main/CODE-OF-CONDUCT.md) which defines the  standards for engaging with the community!
+
+
+## Contact me
+
+If you have any questions or wish to collaborate please contact me please feel free to contact me:  
+
+- **Email** : [seraph776@gmail.com](mailto:seraph776@gmail.com)
+
+
+## License 
+
+[MIT](https://github.com/seraph776/webscrape_template/blob/main/LICENSE) © [Seraph](https://github.com/seraph776) 
