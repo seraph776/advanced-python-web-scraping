@@ -33,7 +33,7 @@ This repository contains information on techniques and best practices on web scr
 - **[Requetss-HTML Basics](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/requests-html-basics)**  
 - **[Advanced Techniques](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/advanced-techniques)**
   - [Enable JavaScript](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/advanced-techniques/enable-javascript)
-  - [Login Authentication](#)
+  - [Login Authentication]
   - [Spoof User Agents](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/advanced-techniques/spoof-user-agents)
   - [Using Proxies](https://github.com/seraph776/advanced-python-web-scraping/blob/main/content/advanced-techniques/using-proxies-servers/README.md)
 - **[CSS Selectors](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/css-selectors)** 
