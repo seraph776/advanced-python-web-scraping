@@ -1,4 +1,11 @@
-# Writing to a SQLite Database
+<div id="top"  align="center">
+
+# Storing Data
+
+## Writing to a SQLite Database
+
+</div>
+
 
 SQLite is a C library that provides a lightweight disk-based database that doesn’t require a separate server process and allows accessing the database using a nonstandard variant of the SQL query language. 
 
@@ -12,6 +19,18 @@ SQLite is a C library that provides a lightweight disk-based database that doesn
 | `float`   | `REAL`      |
 | `str`     | `TEXT`      |
 | `bytes`   | `BLOB`      |
+
+
+
+
+
+<div align="right">
+
+[[↑] Back to top](#top)
+
+</div>  
+
+
 
 ## Tutorial
 
@@ -30,7 +49,17 @@ cursor = conn.cursor()
 
 ```
 
-## Create SQL statements
+
+
+<div align="right">
+
+[[↑] Back to top](#top)
+
+</div>  
+
+
+
+## Create a `CREATE` function
 Create SQL statements seperately, and as `constants`
 
 ```python
@@ -49,6 +78,14 @@ GET_ALL_EMPLOYEES = "SELECT firstName, lastName, email FROM employees;"
 
 
 
+<div align="right">
+
+[[↑] Back to top](#top)
+
+</div>  
+
+
+
 ## Execute SQL commands
 Create `employees` table, and insert `data` into it.
 
@@ -64,7 +101,16 @@ conn.executemany(INSERT_EMPLOYEE, data)
 conn.commit()
 ```
 
-## Query the database
+
+<div align="right">
+
+[[↑] Back to top](#top)
+
+</div>  
+
+
+
+## `QUERY` the database
 
 ```python
 for row in conn.execute(GET_ALL_EMPLOYEES):
@@ -78,7 +124,18 @@ for row in conn.execute(GET_ALL_EMPLOYEES):
 ('lauren', 'travis', 'ltravis@codecrypt76.com')
 ```
 
-## Create a function to insert employee data
+
+
+
+<div align="right">
+
+[[↑] Back to top](#top)
+
+</div>  
+
+
+
+## Create `INSERT` function
 
 ```python
 def insert_employee_data(first_name, last_name, email):
@@ -87,6 +144,14 @@ def insert_employee_data(first_name, last_name, email):
 
 insert_employee_data('elvis', 'presley', 'epresley@codecrypt76.com')
 ```
+
+
+
+<div align="right">
+
+[[↑] Back to top](#top)
+
+</div>  
 
 
 ## Class Example
@@ -145,5 +210,15 @@ data = [("mark", "fortune", "mforune@codecrypt76.com"),
 
 employee_db.insert_many_employees(data)
 employee_db.view_database()
-
 ```
+
+
+
+
+<div align="right">
+
+[[↑] Back to top](#top)
+
+</div>  
+
+
