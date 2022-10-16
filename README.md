@@ -35,12 +35,14 @@ This repository contains information on techniques and best practices on web scr
   - [Enable JavaScript](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/advanced-techniques/enable-javascript)
   - [Login Authentication](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/advanced-techniques/login-authentication)
   - [Spoof User Agents](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/advanced-techniques/spoof-user-agents)
-  - [Using Proxies](https://github.com/seraph776/advanced-python-web-scraping/blob/main/content/advanced-techniques/using-proxies-servers/README.md)
-- **[Storing Your Data](#)** 
-  - [Writing to a SQLite Database](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/storing-data/sqlite3)
+  - [Using Proxies](https://github.com/seraph776/advanced-python-web-scraping/blob/main/content/advanced-techniques/using-proxies-servers)
 - **[CSS Selectors](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/css-selectors)** 
 - **[XPath](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/xpath)**  
 - **[Regex](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/regex)**  
+- **[Storing Your Data](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/storing-data)** 
+  - [SQLite3](https://github.com/seraph776/advanced-python-web-scraping/blob/main/content/storing-data/sqlite3/)
+  - [csv](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/storing-data/csv)
+  - [json](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/storing-data/json) 
 - **[Logging]( https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/logging)** 
 - **[Resources](https://github.com/seraph776/advanced-python-web-scraping/tree/main/resources)** 
  
