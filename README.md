@@ -28,7 +28,7 @@ This repository contains information on techniques and best practices on web scr
 
 - **[About Web Scraping](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/about-web-scraping)**
 - **[How Websites Detect Scraping](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/how-websites-detect)** 
-- **[Common Scraper Traps](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/common-traps)**
+- **[Common Scraper Traps](https://github.com/seraph776/advanced-python-web-scraping/tree/main/content/common-scraper-traps)**
 - [How to Avoid Detection](#) 
 - [Requetss-HTML Basics](#)  
 - [Advanced Techniques](#)
