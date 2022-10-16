@@ -69,7 +69,7 @@ Using all these technics a website can detect a bot. But again as websites gets 
 </div>  
 
 
-## How do you find out if a website has blocked or banned you?
+## Clues that a Website has Blocked You
 
 
 If any of the following signs appear on the site that you are crawling, it is usually a sign of being blocked or banned.
