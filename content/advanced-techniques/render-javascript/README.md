@@ -1,6 +1,6 @@
 <div id="top"  align="center">
 
-# Enable JavaScript
+# Render JavaScript
 
 </div>
 
