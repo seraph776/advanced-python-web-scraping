@@ -29,3 +29,33 @@
 - [PeoplePerHour](https://www.peopleperhour.com/)
 - [SolidGigs](https://solidgigs.com/)
 - [Guru](https://www.guru.com/)
+
+
+## Old TOC
+
+
+<details>
+
+<summary>Click </summary>
+
+- Useful Libraries
+- Making Simple Requests
+- Inspecting the Response
+- Extracting Content from HTML
+  - Using Regular Expressions
+  - Using BeautifulSoup
+  - Using XPath Selectors
+- Storing Your Data
+- Writing to a CSV
+- Writing to a SQLite Database
+- More Advanced Topics
+  - Javascript Heavy Websites
+  - Content Inside iFrames
+  - Sessions and Cookies
+  - Delays and Backing Off
+  - Spoofing the User Agent
+  - Using Proxy Servers
+  - Setting Timeouts
+  - Handling Network Errors
+
+</details>  
