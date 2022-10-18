@@ -59,3 +59,56 @@
   - Handling Network Errors
 
 </details>  
+
+## Old Content
+
+
+## Element Methods
+
+- #### Get Element `TEXT`
+```python
+print(element.text)
+```
+- #### Get Element `ATTRIBUTES`
+
+```python
+print(element.attrs)
+print(element.attrs['href'])
+```
+
+- #### Get Element `ABSOLUTE URL`
+```python
+print(element.absolute_links.pop())
+```
+
+- #### Get Element `TAG`
+```python
+print(element.tag)
+```
+
+- #### Reneder Element's `HTML` 
+```python
+print(element.html)
+```
+
+
+## Find Elements
+
+- #### Using `find()` - Given a CSS Selector, returns a list of Element objects or a single one
+  - `selector`  - CSS Selector to use.
+  - `clean` – Whether or not to sanitize the found HTML of <script> and <style> tags.
+  - `containing` – If specified, only return elements that contain the provided text.
+  - `first` – Whether or not to return just the first result.
+  - `_encoding` – The encoding format.
+- #### Using `xpath()` - Given an XPath selector, returns a list of Element objects or a single one
+  - _same parameters as find_
+- #### Using `search()` - Search for text on the page
+```python
+element.('Python is a {} language')[0]  
+# programming
+```
+
+
+  
+  
+  (method, url, params=None, data=None, headers=None, cookies=None, files=None, auth=None, timeout=None, allow_redirects=True, proxies=None, hooks=None, stream=None, verify=None, cert=None, json=None)
