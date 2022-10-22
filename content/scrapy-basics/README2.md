@@ -4,7 +4,7 @@
 
 - `Items` -  Spiders may return the extracted data as items, Python objects that define key-value pairs.
 - `Middleware` - A framework of hooks into Scrapy’s spider processing mechanism where you can plug custom functionality to process the responses that are sent to Spiders such as setting up `proxies`, `headers`, `user-agents`, etc.).
-- `Pipelines` - After an item has been scraped by a spider, it is sent to the Item Pipeline which processes it. Uses include: 
+- `Pipelines` - After an item has been scraped by a spider, it is sent to the Item Pipeline which processes it. Pipelines must be activates in `settings`. Uses include: 
   - validating scraped data
   - checking for duplicates
   - storing the scraped item in a database
@@ -41,6 +41,53 @@ Condition using which we can extract data from a website.
   - `css`
   - `xpath`
   
+
+## Items.py
+  
+  
+```python
+ class PracticespriderItem(scrapy.Item):
+    # define the fields for your item here like:
+    title = scrapy.Field()
+    author = scrapy.Field()
+    tag = scrapy.Field() 
+  
+```  
+  
+ ## Pipelines.py
+  
+```python
+  import sqlite3
+
+
+class PracticespriderPipeline:
+
+    def __init__(self):
+        self.conn = sqlite3.connect('quotes.db')
+        self.curr = self.conn.cursor()
+        self.create_table()
+
+    def create_table(self):
+        self.curr.execute("""
+            CREATE TABLE IF NOT EXISTS quotes_tb (
+                quotes TEXT,
+                author TEXT,
+                tag TEXT   
+            )""")
+        self.conn.commit()
+
+    def process_item(self, item, spider):
+        self.store_db(item)
+        return item
+
+    def store_db(self, item):
+        title, author, tags = item['title'][0], item['author'][0],item['tag'][0]
+        self.curr.execute("INSERT INTO quotes_tb VALUES (?,?,?)", (title,author,tags))
+        self.conn.commit()
+  
+``` 
+  
+      
   
   
 ## Save scraped data
