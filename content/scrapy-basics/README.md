@@ -39,7 +39,9 @@ scrapy crawl SPRIDERNAME -o filename.csv/json/xml
 ```
 
 
-
+```cmd
+pip install scrapy-user-agents
+```
 
 
 ## Pagination
