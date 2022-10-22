@@ -1,8 +1,10 @@
 # Scrapy
 
+[Scrapy Docs](https://docs.scrapy.org/_/downloads/en/latest/pdf/)
+
 - `Items` -  Spiders may return the extracted data as items, Python objects that define key-value pairs.
-- `Middleware` - A framework of hooks into Scrapy’s spider processing mechanism where you can plug custom functionality to process the responses that are sent to Spiders 
-- `Pipelines` - After an item has been scraped by a spider, it is sent to the Item Pipeline which processes it. uses include: 
+- `Middleware` - A framework of hooks into Scrapy’s spider processing mechanism where you can plug custom functionality to process the responses that are sent to Spiders such as setting up `proxies`, `headers`, `user-agents`, etc.).
+- `Pipelines` - After an item has been scraped by a spider, it is sent to the Item Pipeline which processes it. Uses include: 
   - validating scraped data
   - checking for duplicates
   - storing the scraped item in a database
@@ -20,7 +22,7 @@ scrapy startproject `PROJECTNAME`
 Usage: scrapy genspider [options] <name> <domain> 
   
 ```cmd
-scrapy genspider quotes_spider quotes.toscrape.com
+scrapy genspider SPIDERNAME WEBSITE.com
 ```
 
 
@@ -32,6 +34,15 @@ scrapy crawl SPIDERNAME
 ```
 
 
+  
+## Selectors
+  
+Condition using which we can extract data from a website. 
+  - `css`
+  - `xpath`
+  
+  
+  
 ## Save scraped data
 
 ```
@@ -80,7 +91,7 @@ class QuoteSpider(scrapy.Spider):
                                         
 ```python
     def parse(self, response, **kwargs):
-        token = response.css('form input::attr(value)').extract_first()
+        token = response.css('form input::attr(value)').get()
         return FormRequest.from_response(response, formdata={
             'csrf_token':token,
             'username': 'seraph',
@@ -90,6 +101,7 @@ class QuoteSpider(scrapy.Spider):
 
  
 ```
-                                              
+
+> 👉 **Note**:   `.get()` and `.getall()` selector methods are now preferred over `.extract_first()` and `.extract().`
                                         
                                         
