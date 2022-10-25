@@ -2,13 +2,12 @@
 
 [Scrapy Docs](https://docs.scrapy.org/_/downloads/en/latest/pdf/)
 
-- `Items` -  Spiders may return the extracted data as items, Python objects that define key-value pairs.
-- `Middleware` - A framework of hooks into Scrapy’s spider processing mechanism where you can plug custom functionality to process the responses that are sent to Spiders such as setting up `proxies`, `headers`, `user-agents`, etc.).
-- `Pipelines` - After an item has been scraped by a spider, it is sent to the Item Pipeline which processes it. Pipelines must be activates in `settings`. Uses include: 
-  - validating scraped data
-  - checking for duplicates
-  - storing the scraped item in a database
-- `Settings` - Allows you to customize the behaviour of all Scrapy components, including the core, extensions, pipelines and spiders themselves
+- `spiders folder`: This folder contains all of our future Scrapy spider files that extract the data.
+- `items`: This file contains item objects that behave like Python dictionaries and provide an abstraction layer to store scraped data within the Scrapy framework.
+- `middlewares` (advanced): A framework of hooks into Scrapy’s spider processing mechanism where you can plug custom functionality to process the responses that are sent to Spiders such as setting up `proxies`, `headers`, `user-agents`, etc.). For simple scraping projects, you don’t need to modify middlewares.
+- `pipelines`: Scrapy pipelines are for extra data processing steps you want to implement after you extract data. You can clean, organize, or even drop data in these pipelines.
+- `settings`: General settings for how Scrapy runs, for example, delays between requests, caching, file download settings, etc.
+
 
 
 ## Start project
@@ -89,11 +88,11 @@ class PracticespriderPipeline:
   
       
   
-  
-## Save scraped data
+## Output
 
-```
-scrapy crawl SPRIDERNAME -o filename.csv/json/xml
+```python
+scrapy crawl dapps -o data/07-07-dapps.csv
+scrapy crawl dapps -t csv -o - >"data/dapp/$DATE-dapp.csv" crawl SPRIDERNAME -o filename.csv/json/xml
 ```
 
 
