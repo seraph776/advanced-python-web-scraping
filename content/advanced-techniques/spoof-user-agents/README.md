@@ -8,6 +8,13 @@
 
 A `User-Agent` request header includes a unique string that identifies the browser being used, its version, and the operating system. Their primary function is to decipher which browser are you using to visit a website. They can easily block you, in case you are using a website that isn’t major. You can cut down your chances of getting blacklisted by setting a user agent that seems genuine and well-known. Here is a [database of User-Agents](https://developers.whatismybrowser.com/useragents/explore/) to choose from.
 
+
+## Google Bot User Agent
+
+```python
+USER AGENT  = Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+```
+
 ## Fake-Useragent module
 
 🔥 [fake-useragent](https://pypi.org/project/fake-useragent/) - _included with requests-html_
